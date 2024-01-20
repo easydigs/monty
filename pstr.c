@@ -21,5 +21,5 @@ void f_pstr(stack_t **head, unsigned int counter)
 		printf("%c", h->n);
 		h = h->next;
 	}
-	printf("\n")
+	printf("\n");
 }
