@@ -22,5 +22,5 @@ void f_rotl(stack_t **head,  __attribute__((unused)) unsigned int counter)
 	tmp->next = *head;
 	(*head)->next = NULL;
 	(*head)->prev = tmp;
-	(*head) = aux;
+	(*head) = aux
 }
